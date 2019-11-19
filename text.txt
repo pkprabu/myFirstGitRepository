@@ -2,3 +2,9 @@ a = ['red', 'blue', 'green'];
 	a[100] = 'black';
   console.log(a.length);
   console.log(a);
+
+Object.defineProperty(obj, 'name', {
+  writable: true,
+  configurable: true,
+  enumerable: true
+})
