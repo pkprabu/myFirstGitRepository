@@ -1,0 +1,4 @@
+a = ['red', 'blue', 'green'];
+	a[100] = 'black';
+  console.log(a.length);
+  console.log(a);
