@@ -1,1 +1,8 @@
 index.html
+$(function(){
+
+                $(".header-wrapper").load("/academy-controls/header/header.html");
+
+                $(".footer-wrapper").load("/controls/footer/footer.html");
+
+            });
